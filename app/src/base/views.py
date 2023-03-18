@@ -3,6 +3,7 @@ import json
 
 
 def home(request):
+    Product
     body = request.body
     json_data = {}
     print(request.GET)  # url query params
