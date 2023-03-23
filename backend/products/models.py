@@ -13,3 +13,9 @@ class Product(models.Model):
 
     def get_discount(self):
         return '199'
+
+    def get_year(self):
+        return '1999'
+
+    def get_country(self):
+        return 'Germany'
