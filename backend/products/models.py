@@ -11,14 +11,8 @@ class Product(models.Model):
     def sale_price(self):
         return "%.2f" % (float(self.price) * 0.8)
 
-    @property
-    def get_get_discount(self):
-        return '199'
+    def get_discount(self):
+        return "DISCOUNT"
 
-    @property
-    def get_year(self):
-        return '1999'
-
-    @property
-    def get_country(self):
-        return 'Germany'
+    def get_test(self):
+        return "TEST"
