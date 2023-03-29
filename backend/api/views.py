@@ -12,6 +12,3 @@ def api_home(request):
     if instance:
         data = {"TEST": 1}
     return Response(data)
-    # data = model_to_dict(instance, fields=['title', 'id', 'content', 'price', 'sale_price'])
-    #     json_data_str = json.dumps(data)
-    # return HttpResponse(json_data_str, headers={'content-type': 'application/json'})
