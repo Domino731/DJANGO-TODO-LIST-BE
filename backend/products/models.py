@@ -8,3 +8,4 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=15, decimal_places=2, default=99.99)
     brand = models.CharField(max_length=100, default="UNKNOWN")
     country = models.CharField(max_length=100, default="UNKNOWN")
+    eco = models.BooleanField(default=False)
